@@ -43,3 +43,17 @@ function abbrevName(name){
 
     // using the method split so we can split each index and be able to select a letter from a word . The map method is than used to select every index at [0] use uppercase for uppercase and at the just join them with . in between 
     // output A.S if we are inputting angel sanchez 
+...................................................................................................................................
+
+//Write a function to get the first elements of asequence. Passing a parameter n (default=1) will return the first n elements of the sequence.
+
+//If n == 0 return an empty sequence []
+function first(arr, n) {
+  if(n == 0)
+    return []; 
+  if(n == null)
+    return arr.slice(0,1);
+  if(n > 0)
+   
+    return arr.slice(0,n);
+}
