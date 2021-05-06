@@ -99,3 +99,12 @@ function gooseFilter (birds) { // we want to return a birds elements without the
  return birds.filter((elm) => !geese.includes(elm) ) // we use the filter method to filter all the elements that are part of geese elements 
   // return an array containing all of the strings in the input array except those that match strings in geese
 };
+...............................................................................................
+//Given an array, rotate the array to the right by k steps, where k is non-negative.
+var rotate = function(nums, k) {
+  for (let i = 0; i < k; i++) { // initiating at i=0 and the  condition statement to only get any k elements greater than i and keep adding 1 with the i++ 
+      nums.unshift(nums.pop()); // we use two methods the pop and unshift . Use the pop method to get all the elements that are greater than the k values given and unshift them back to a new array 
+  }
+
+  return nums;
+};
