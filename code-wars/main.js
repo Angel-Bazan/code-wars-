@@ -108,3 +108,32 @@ var rotate = function(nums, k) {
 
   return nums;
 };
+..............................................................................................................
+
+//Write a function that takes an array of numbers (integers for the tests) and a target number. It should find two different items in the array that, when added together, give the target value. The indices of these items should then be returned in a tuple like so: (index1, index2).
+
+//For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
+
+//The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers; target will always be the sum of two different items from that array).
+
+Based on: http://oj.leetcode.com/problems/two-sum/
+
+//////////////////////////////////////////////////////////////////////////////
+function twoSum(numbers, target) {
+  for ( var x=0; x<numbers.length; x++) // adding a for loop to get all the items from numbers starting with 0 
+  for (var y=x+1; y<numbers.length; y++) // added x with the next index 1 through all the loop 
+    if (numbers[x] + numbers[y] === target) return [x,y];  // adding all numbers x and y that will only give us the target number and returns x and y in a array 
+}
+
+..............................................................................................................................
+//Complete the function that takes a non-negative integer n as input, and returns a list of all the powers of 2 with the exponent ranging from 0 to n (inclusive).
+
+
+function powersOfTwo(n){
+  var result = []; //given so creating a new array here 
+  for (var i = 0; i <= n; i++) { // for loop going to every i from the condition is given; initiating at 0 and adding 1 
+    result.push(Math.pow(2, i)); // in this loop we are introduced to two new methods the math.power and .push method the power we use it by have the base in the x-axis and the exponent in the y-axis and than we push it to the new array 
+  }
+  return result;
+}
+
