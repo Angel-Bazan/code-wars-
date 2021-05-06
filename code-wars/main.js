@@ -57,3 +57,20 @@ function first(arr, n) {
    
     return arr.slice(0,n);
 }
+..............................................................................................................................................................
+   //Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length. 
+var removeDuplicates = function(nums) { // function of nums is given to you 
+    // nums.splice(0, nums.length, ...(new Set(nums))); //still in progress of understanding but it states here to remove the length of index starting at index 0 and than set up a new set of nums ????? 
+
+        
+    let i = 0; // here we are set index i = 0 
+    for(let j = 1; j < nums.length; j++){  // we start a j=1 and get all of the index j that are less than the length of nums for every j 
+        if(nums[i] != nums[j]){ //if nums[i] doesnt equal to nums[j]
+            i++; //than we also loop through every nums[i]
+            nums[i]=nums[j]; // we are stating that nums[i] is the same thing as nums[j]
+        }
+    }
+    return i+1; //returning every 1 one i if we put plus 2 its going to add a duplicate of 2 if we put only i its going to give us i not j 
+     
+       
+   };
