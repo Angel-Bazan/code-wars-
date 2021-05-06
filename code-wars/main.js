@@ -74,3 +74,20 @@ var removeDuplicates = function(nums) { // function of nums is given to you
      
        
    };
+.................................................................................................................................................
+//You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+//Find the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
+
+//Input: prices = [7,1,5,3,6,4] // if bought at day one and didnt sell you get an output of 7 but if bought at day 1 and sell at day 3 you get 5-3 = profit of 2 
+//Output: 7
+
+var maxProfit = function(prices) {
+    let profit = 0 ; //we set the profit equal to zero because we still havent made any profit when starting 
+    for(let i=1; i<prices.length; i++){ // we are going to initiating at 1 so if the length of the prices is bigger than 1 than we can keep adding by 1 
+        if(prices[i] > prices[i-1]){ // if the prices of i are greater than the prices of i-1 than ...
+            profit += prices[i] - prices[i-1] //than the profit we add it to the prices of i - the prices of i-1
+        }
+    }
+    return profit //return the profit 
+};
