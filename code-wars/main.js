@@ -91,3 +91,11 @@ var maxProfit = function(prices) {
     }
     return profit //return the profit 
 };
+.........................................................................
+
+ //Write a function, gooseFilter / goose-filter / goose_filter / GooseFilter, that takes an array of strings as an argument and returns a filtered array containing the same elements but with the 'geese' removed.
+function gooseFilter (birds) { // we want to return a birds elements without the geese elements 
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]; // the var of geese is given 
+ return birds.filter((elm) => !geese.includes(elm) ) // we use the filter method to filter all the elements that are part of geese elements 
+  // return an array containing all of the strings in the input array except those that match strings in geese
+};
