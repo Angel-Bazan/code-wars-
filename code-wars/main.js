@@ -137,3 +137,12 @@ function powersOfTwo(n){
   return result;
 }
 
+....................................................................................................................................
+//Given a non-empty array of integers, return the result of multiplying the values together in order. 
+
+function grow(x){
+// let grow =x=> x.reduce((a,b) => a * b)
+  const grow = (a,b) => a * b;
+  
+  return x.reduce(grow)
+}
