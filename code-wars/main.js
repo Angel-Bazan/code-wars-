@@ -21,7 +21,7 @@ function countPositivesSumNegatives(input) {
 
 //(270-90)+(20-20)+(720-60)==840
 
-//solution 
+//solution mmmmmmm
 function sumDifferencesBetweenProductsAndLCMs(pairs){
     const gcd = (x,y) => x == 0 ? y : gcd(y % x, x)
     const lcm = (x,y) => x * y == 0 ? 0 : x * y / gcd(x,y)  
