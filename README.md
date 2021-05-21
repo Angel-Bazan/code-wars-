@@ -54,4 +54,16 @@ function lastSurvivor(letters, coords) {
          return letters.join('')
 }
 ```
+#7 Kyu Harvest Festival 
+
+### Description: 
+You have cultivated a plant, and after months of hard work, the time has come to reap the flowers of your hard work. When it was growing, you added water and fertilizer, and kept a constant temperature. It's time check how much your plant has grown.
+
+```jsx 
+function plant(seed, water, fert, temp){
+
+  return temp >= 20 && temp <= 30 ? ('-'.repeat(water) + seed.repeat(fert)).repeat(water) : ('-'.repeat(water*water)+seed)
+  
+  }
+```
 
