@@ -78,3 +78,15 @@ function countDevelopers(list) {
  return list.filter(a => a.continent === 'Europe' && a.language ==='JavaScript').length
 }
 ```
+### 7 kyu Coding Meetup #12 - Higher-Order Functions Series - Find GitHub admins
+
+### Description 
+You will be given an array of objects representing data about developers who have signed up to attend the next coding meetup that you are organising.
+write a function that when executed as findAdmin(list1, 'JavaScript') returns only the JavaScript developers who are GitHub admins:
+
+```jsx 
+function findAdmin(list, lang) {
+  return list.filter(a => a.language===lang && a.githubAdmin === 'yes')
+  // thank you for checking out the Coding Meetup kata :)
+}
+```
