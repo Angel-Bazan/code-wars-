@@ -90,3 +90,22 @@ function findAdmin(list, lang) {
   // thank you for checking out the Coding Meetup kata :)
 }
 ```
+
+### 7 kyu Coding Meetup #11 - Higher-Order Functions Series - Find the average age
+
+### Description
+write a function that returns the average age of developers (rounded to the nearest integer). In the example above your function should return 50 (number).
+
+Notes:
+
+The input array will always be valid and formatted as in the example above.
+Age is represented by a number which can be any positive integer.
+
+```jsx
+function getAverageAge(list) {
+  
+  return Math.round(list.reduce((acc,current)=> acc += current.age,0) / list.length)
+  // thank you for checking out the Coding Meetup kata :)
+  }
+
+```
