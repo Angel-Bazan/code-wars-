@@ -125,4 +125,20 @@ function greetDevelopers(list) {
   list.forEach(a=> a.greeting=`Hi ${a.firstName}, what do you like the most about ${a.language}?`)
   return list 
 }
+``` 
+
+### 7 kyu Coding Meetup #14 - Higher-Order Functions Series - Order the food
+
+### Description 
+You will be given an array of objects representing data about developers who have signed up to attend the next coding meetup that you are organising.
+
+Your task is to return an object which includes the count of food options selected by the developers on the meetup sign-up form..
+
+```jsx 
+function orderFood(list) {
+   const obj={}
+  list.map(v=>obj[v.meal]=obj[v.meal]?obj[v.meal]+1:1)
+  return obj
+
+}
 ```
