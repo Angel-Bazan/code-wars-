@@ -169,4 +169,24 @@ function fakeBin(x) {
 }
 
 
+```  
+
+### 8 KYU Get the mean of an array 
+
+### Description 
+Return the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
+
+
+
+```jsx 
+
+function getAverage(marks){
+return Math.floor(marks.reduce((c,a) => c+a ) / marks.length) 
+}
+
+
+
 ```
+
