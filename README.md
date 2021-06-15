@@ -205,3 +205,17 @@ Simples!
 return arr.reverse()
 }
 ```
+
+### 8 KYU UEFA EURO 2016 
+
+### Description 
+Finish the uefaEuro2016() function so it return string just like in the examples below:
+
+
+```jsx 
+function uefaEuro2016([t1,t2], [s1,s2]){
+  if (s1==s2) return `At match ${t1} - ${t2}, teams played draw.`
+  if (s1>s2) return `At match ${t1} - ${t2}, ${t1} won!`
+  if (s1<s2) return `At match ${t1} - ${t2}, ${t2} won!`
+} 
+```
