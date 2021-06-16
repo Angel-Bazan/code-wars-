@@ -218,3 +218,18 @@ function uefaEuro2016([t1,t2], [s1,s2]){
   if (s1<s2) return `At match ${t1} - ${t2}, ${t2} won!`
 } 
 ```
+
+
+### 8 KYU Find Numbers which are divisible by given number 
+
+### Description 
+Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
+
+
+```jsx 
+function divisibleBy(numbers, divisor){
+  
+  return numbers.filter(nums => nums%divisor == 0)
+
+}
+```
