@@ -246,3 +246,15 @@ return [...new Set(arr1.concat(arr2))].sort((a,b) => a - b )
 
 }
 ```
+
+### 8 KYU Convert a string to an array 
+
+### Description 
+Write a function to split a string and convert it into an array of words. For example:
+
+```jsx
+function stringToArray(string){
+return string.split(' ')
+
+}
+```
