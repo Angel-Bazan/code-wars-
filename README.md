@@ -28,6 +28,7 @@ Just a simple sorting usage. Create a function that returns the elements of the 
 
 ### Syntax:
 
+
 ```jsx 
 sortme = function( names ){
   return names.sort()
