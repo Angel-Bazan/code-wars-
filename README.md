@@ -1,7 +1,6 @@
 
 
 
-
 # Code Wars 
 
 # 8kyu You only need one - Beginner()
