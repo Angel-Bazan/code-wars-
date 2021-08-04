@@ -302,4 +302,20 @@ function repeats(arr){
   return arr.filter((v,i,arr)=>arr.indexOf(v)==arr.lastIndexOf(v)).reduce((a,b)=>a+b,0)
 
 };
+``` 
+### 6 KYU String Transformer
+
+### Description 
+Given a string, return a new string that has transformed based on the input:
+
+Change case of every character, ie. lower case to upper case, upper case to lower case.
+Reverse the order of words from the input. 
+
+```jsx 
+function stringTransformer(str) {
+return str.split` `.map(v=>v.replace(/./gi,v=>{
+  if (v===v.toLowerCase()) return v.toUpperCase()
+  if (v===v.toUpperCase()) return v.toLowerCase()
+})).reverse().join` `
+} 
 ```
