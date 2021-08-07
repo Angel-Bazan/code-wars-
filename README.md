@@ -332,3 +332,16 @@ const count = x.reduce((s,v) => s + (v==='good'), 0);
 return count ? count > 2 ? 'I smell a series!' : 'Publish!' : 'Fail!'
 } 
 ```
+
+### 8 KYU Removing Elements 
+
+  
+### Description:
+Take an array and remove every second element out of that array. Always keep the first element and start removing with the next element.
+Example:
+myArr = ['Keep', 'Remove', 'Keep', 'Remove', 'Keep', ...];
+None of the arrays will be empty, so you don't have to worry about that!
+
+```jsx
+const removeEveryOther = arr => arr.filter((_, i) => i % 2 === 0)
+```
