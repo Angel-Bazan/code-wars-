@@ -430,4 +430,18 @@ What if we need the length of the words separated by a space to be added at the 
 function addLength(str) {
 return str.split(' ').map(x => `${x} ${x.length}`)
 }
+``` 
+
+###8 KYU A wolf in a sheep's clothing 
+
+### Description 
+Wolves have been reintroduced to Great Britain. You are a sheep farmer, and are now plagued by wolves which pretend to be sheep. Fortunately, you are good at spotting them.
+
+Warn the sheep in front of the wolf that it is about to be eaten. Remember that you are standing at the front of the queue which is at the end of the array:
+
+```jsx 
+function warnTheSheep(queue) {
+const index=queue.indexOf('wolf') 
+return index===queue.length-1?'Pls go away and stop eating my sheep' : `Oi! Sheep number ${queue.length-1-index}! You are about to be eaten by a wolf!`
+}
 ```
