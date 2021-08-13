@@ -445,3 +445,19 @@ const index=queue.indexOf('wolf')
 return index===queue.length-1?'Pls go away and stop eating my sheep' : `Oi! Sheep number ${queue.length-1-index}! You are about to be eaten by a wolf!`
 }
 ```
+###8 KYU Grasshopper - Terminal Game Turn Function 
+
+### Description 
+You are creating a text-based terminal version of your favorite board game. In the board game, each turn has six steps that must happen in this order: roll the dice, move, combat, get coins, buy more health, and print status.
+
+```jsx 
+function doTurn () {
+rollDice(), 
+move(),
+combat(),
+getCoins(),
+buyHealth(),
+printStatus()
+  
+}
+```
