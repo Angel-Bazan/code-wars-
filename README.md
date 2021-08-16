@@ -432,7 +432,7 @@ return str.split(' ').map(x => `${x} ${x.length}`)
 }
 ``` 
 
-###8 KYU A wolf in a sheep's clothing 
+### 8 KYU A wolf in a sheep's clothing 
 
 ### Description 
 Wolves have been reintroduced to Great Britain. You are a sheep farmer, and are now plagued by wolves which pretend to be sheep. Fortunately, you are good at spotting them.
@@ -445,7 +445,7 @@ const index=queue.indexOf('wolf')
 return index===queue.length-1?'Pls go away and stop eating my sheep' : `Oi! Sheep number ${queue.length-1-index}! You are about to be eaten by a wolf!`
 }
 ```
-###8 KYU Grasshopper - Terminal Game Turn Function 
+### 8 KYU Grasshopper - Terminal Game Turn Function 
 
 ### Description 
 You are creating a text-based terminal version of your favorite board game. In the board game, each turn has six steps that must happen in this order: roll the dice, move, combat, get coins, buy more health, and print status.
