@@ -471,4 +471,15 @@ Create a method all which takes an array and a predicate (function pointer), and
 function all( arr, fun ){
   return arr.every(fun)
 }
+``` 
+
+### 8 KYU noobCode 01: SUPERSIZE ME.... or rather, this integer! 
+
+### Description 
+Write a function that rearranges an integer into its largest possible value.
+
+```jsx
+function superSize(num){
+  return Number(String(num).split('').sort((a,b)=>b-a).join(''))
+} 
 ```
