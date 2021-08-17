@@ -483,3 +483,14 @@ function superSize(num){
   return Number(String(num).split('').sort((a,b)=>b-a).join(''))
 } 
 ```
+
+### 8 KYU #To square(root) or not to square(root)
+
+### Description 
+Write a method, that will get an integer array as parameter and will process every number from this array.
+Return a new array with processing every number of the input-array like this:
+
+```jsx 
+ const isSquareRootInteger = num => Number.isInteger(Math.sqrt(num)) 
+  const squareOrSquareRoot = array => array.map(num => (isSquareRootInteger(num) ? Math.sqrt(num) : num ** 2))
+```
