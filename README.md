@@ -494,4 +494,21 @@ Return a new array with processing every number of the input-array like this:
 ```jsx 
  const isSquareRootInteger = num => Number.isInteger(Math.sqrt(num)) 
   const squareOrSquareRoot = array => array.map(num => (isSquareRootInteger(num) ? Math.sqrt(num) : num ** 2))
+``` 
+
+### 8 KYU Printing Array elements with Comma delimiters
+
+### Description 
+Input: Array of elements
+
+["h","o","l","a"]
+
+Output: String with comma delimited elements of the array in th same order.
+
+"h,o,l,a"
+
+```jsx 
+function printArray(array){
+return array.join( )
+}
 ```
