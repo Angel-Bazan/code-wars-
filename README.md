@@ -525,3 +525,15 @@ return arr.split(',').slice(1,-1).join(' ')|| null
 }
 ```
 
+### 8 KYU Arguments to Binary addition
+
+### Description 
+Given an array add all the number elements and return the binary equivalent of that sum; to make the code bullet proof anything else than a number should be addeded as 0 since it can't be addeded. 
+
+```jsx 
+function arr2bin(arr){
+    return arr.reduce((total, value) => (typeof value === 'number' ? total + value : total), 0)
+    .toString(2)
+} 
+```
+
