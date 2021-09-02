@@ -569,4 +569,14 @@ function popElement(arr){
   return arr
 }
 ```
+### 8kyu Training JS #29: methods of arrayObject---concat() and join()
+
+### Description 
+This lesson we learn two methods of array: concat() and join(). We have seen concat() in the stringObject method, but the method of the arrayObject is different from the stringObject method, so we need to learn again. When studying the stringObject method split(), we have simply learned the join() method. This time we will review and explain it in detail. 
+
+```jsx 
+function bigToSmall(arr){
+  return [].concat(...arr).sort((a,b)=>b-a).join('>')
+  
+} 
 
