@@ -589,3 +589,13 @@ You are trying to put a hash in ruby or an object in javascript or java into an 
 let items = []
 items.push ({a: "b", c: "d"})
 ````
+### 8KYU Duck Duck Goose
+
+### Description 
+Task: Given an array of Player objects (an array of associative arrays in PHP) and an index (1-based), return the name of the chosen Player(name is a property of Player objects, e.g Player.name)
+
+```jsx 
+function duckDuckGoose(players, goose) {
+  return players[(goose-1)%players.length].name
+}
+```
