@@ -599,3 +599,13 @@ function duckDuckGoose(players, goose) {
   return players[(goose-1)%players.length].name
 }
 ```
+### 7KYU Even Numbers in Array 
+
+### Description 
+Given an array of digital numbers, return a new array of length number containing the last even numbers from the original array (in the same order). The original array will be not empty and will contain at least "number" even numbers.
+
+```jsx 
+function evenNumbers(array, number) {
+  return array.filter(x=> x % 2 == 0).slice(-number)
+}
+```
