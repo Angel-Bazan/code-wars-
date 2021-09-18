@@ -610,3 +610,14 @@ function evenNumbers(array, number) {
   return array.filter(x=> x % 2 == 0).slice(-number)
 }
 ```
+### 7KYU Alan Partridge III - London
+
+### Description 
+Your job is to check that the provided list of stations contains all of the stops Alan mentions. There will be other stations in the array. Example:
+
+```jsx 
+const stations = ['Rejection', 'Disappointment', 'Backstabbing Central', 'Shattered Dreams Parkway']; 
+  
+  return stations.every(v=>x.includes(v)) ? 'Smell my cheese you mother!' : 'No, seriously, run. You will miss it.'
+}
+```
