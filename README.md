@@ -650,3 +650,13 @@ const i = direction == 'left' ? steps : -steps
   return arr.slice(i).concat(arr.slice(0,i))
 }
 ```
+### 8 KYU Opposites attract 
+
+### Description 
+Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't. 
+
+```jsx 
+function lovefunc(flower1, flower2){
+  return flower1 % 2 != flower2 % 2;
+}
+```
