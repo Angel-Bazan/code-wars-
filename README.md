@@ -659,3 +659,13 @@ function lovefunc(flower1, flower2){
   return flower1 % 2 != flower2 % 2;
 }
 ```
+### 8 KYU Make UpperCase 
+
+### Description 
+Write a function which converts the input string to uppercase. 
+
+```jsx 
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
+```
