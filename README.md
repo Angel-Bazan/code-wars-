@@ -691,3 +691,13 @@ function simpleMultiplication(number) {
    return number % 2 === 0 ? number * 8 : number * 9 
 }
 ```
+### 8 KYU Even or Odd 
+
+### Description 
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers. 
+
+```jsx 
+function even_or_odd(number) {
+  return number % 2 === 0 ? "Even" : "Odd"
+}
+```
