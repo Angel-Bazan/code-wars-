@@ -681,3 +681,13 @@ function hello(name) {
   return `Hello, ${name ? name[0].toUpperCase() + name.slice(1).toLowerCase() : "World"}!`
 }  
 ```
+### 8 KYU Simple Multiplication 
+
+### Description 
+This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+```jsx 
+function simpleMultiplication(number) {
+   return number % 2 === 0 ? number * 8 : number * 9 
+}
+```
