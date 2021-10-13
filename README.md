@@ -700,3 +700,14 @@ function even_or_odd(number) {
   return number % 2 === 0 ? "Even" : "Odd"
 }
 ```
+### 8 Remove First and Last Character 
+
+### Description 
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+```jsx 
+function removeChar(str){
+ return str.substring(1, str.length - 1)
+
+};
+```
